@@ -1,0 +1,59 @@
+about:
+  description: Ultra fast and easy duplicate file finder. Awesome TUI/GUI to manage results.
+  license: Apache-2.0
+  homepage: 
+  head: a86647d
+  archived: false
+  latestVersion: v0.6.2
+  collectedAt: 2026-08-31T05:46:16Z
+timeline:
+  created: 2021-06-14
+  lastCommit: 2026-08-16
+  lastRelease: 2026-08-16
+popularity:
+  star: 375
+  watcher: 4
+  fork: 10
+  release: 4
+  contributor: 2
+  pullRequest: 4
+  issue: 14
+language:
+  Go: 351964
+  Makefile: 6285
+  Python: 2905
+  Shell: 329
+totalLine: 361483
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 3
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 4
+  last90d:
+    since: 2026-06-02
+    release: 3
+    mergedPR: 1
+    openPR: 0
+    closedIssue: 8
+    openIssue: 1
+    commit: 14
+  last180d:
+    since: 2026-03-04
+    release: 4
+    mergedPR: 1
+    openPR: 0
+    closedIssue: 8
+    openIssue: 1
+    commit: 49
+  last360d:
+    since: 2025-09-05
+    release: 4
+    mergedPR: 3
+    openPR: 0
+    closedIssue: 11
+    openIssue: 1
+    commit: 150
