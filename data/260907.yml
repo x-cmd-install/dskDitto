@@ -5,13 +5,13 @@ about:
   head: a86647d
   archived: false
   latestVersion: "v0.6.2"
-  collectedAt: 2026-09-07T05:39:14Z
+  collectedAt: 2026-09-07T18:56:05Z
 timeline:
   created: 2021-06-14
   lastCommit: 2026-08-16
   lastRelease: 2026-08-16
 popularity:
-  star: 379
+  star: 381
   watcher: 4
   fork: 10
   release: 4
@@ -82,7 +82,7 @@ total:
   commit: 258
 ---
 path: /home/runner/.x-repo/github.com/jdefrancesco/dskDitto
-collectedAt: 2026-09-07T05:39:16Z
+collectedAt: 2026-09-07T18:56:07Z
 loc:
   Go:
     code: 10963
@@ -118,7 +118,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:39:17+00:00
+  collectedAt: 2026-09-07T18:56:07+00:00
   platform:
     darwin/arm64:
       name:  null
