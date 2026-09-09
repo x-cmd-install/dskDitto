@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/371219166",
-  "assets_url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/371219166/assets",
-  "upload_url": "https://uploads.github.com/repos/jdefrancesco/dskDitto/releases/371219166/assets{?name,label}",
-  "html_url": "https://github.com/jdefrancesco/dskDitto/releases/tag/v0.6.2",
-  "id": 371219166,
+  "url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/385322717",
+  "assets_url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/385322717/assets",
+  "upload_url": "https://uploads.github.com/repos/jdefrancesco/dskDitto/releases/385322717/assets{?name,label}",
+  "html_url": "https://github.com/jdefrancesco/dskDitto/releases/tag/v0.6.3",
+  "id": 385322717,
   "author": {
     "login": "jdefrancesco",
     "id": 782408,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOFncStM4WIFre",
-  "tag_name": "v0.6.2",
+  "node_id": "RE_kwDOFncStM4W947d",
+  "tag_name": "v0.6.3",
   "target_commitish": "master",
-  "name": "dskDitto v0.6.2",
+  "name": "dskDitto v0.6.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-08-16T03:16:54Z",
-  "updated_at": "2026-08-16T03:17:03Z",
-  "published_at": "2026-08-16T03:17:03Z",
+  "created_at": "2026-09-09T07:54:47Z",
+  "updated_at": "2026-09-09T07:58:32Z",
+  "published_at": "2026-09-09T07:58:32Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/tarball/v0.6.2",
-  "zipball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/zipball/v0.6.2",
-  "body": "Smaller release binaries:\n\n- **Documented install command now strips debug symbols** (`-ldflags=\"-s -w\"`), shrinking the installed binary by roughly a third (~9.9MB → ~6.6MB on macOS arm64). This only applies to what you actually run, since `go install` always builds from source on your machine — see the README for the updated command (both the CLI/TUI and `-tags gui` variants).\n- Added `make dist` for maintainers: cross-builds stripped, versioned CLI/TUI binaries for darwin/linux amd64+arm64, for anyone who'd rather download a prebuilt binary than build from source.\n\nNo functional/CLI changes since v0.6.1."
+  "tarball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/tarball/v0.6.3",
+  "zipball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/zipball/v0.6.3",
+  "body": "Faster TUI startup on large scans:\n\n- Duplicate-group total sizes were previously recomputed via `os.Stat()` on every file when building the TUI view model, even though the size was already known from the scan. On scans of ~2M files this meant hundreds of thousands of blocking, single-threaded `stat()` syscalls before the TUI could render its first frame.\n- File sizes are now cached at scan time and reused when building duplicate-group summaries, falling back to a stat only when a size wasn't already known (currently just fuzzy-match groups).\n\nNo CLI/flag changes since v0.6.2."
 }
