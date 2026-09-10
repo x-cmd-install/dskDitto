@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.6.3"
   latestRelease: "v0.6.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:54:20Z
+  collectedAt: 2026-09-10T17:31:42Z
 timeline:
   created: 2021-06-14
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 
 popularity:
-  star: 383
+  star: 382
   watcher: 4
   fork: 10
   release: 5
@@ -86,7 +86,7 @@ total:
   commit: 259
 ---
 path: /home/runner/.x-repo/github.com/jdefrancesco/dskDitto
-collectedAt: 2026-09-10T05:54:22Z
+collectedAt: 2026-09-10T17:31:45Z
 loc:
   Go:
     code: 10993
