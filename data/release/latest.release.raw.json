@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/385322717",
-  "assets_url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/385322717/assets",
-  "upload_url": "https://uploads.github.com/repos/jdefrancesco/dskDitto/releases/385322717/assets{?name,label}",
-  "html_url": "https://github.com/jdefrancesco/dskDitto/releases/tag/v0.6.3",
-  "id": 385322717,
+  "url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/387612549",
+  "assets_url": "https://api.github.com/repos/jdefrancesco/dskDitto/releases/387612549/assets",
+  "upload_url": "https://uploads.github.com/repos/jdefrancesco/dskDitto/releases/387612549/assets{?name,label}",
+  "html_url": "https://github.com/jdefrancesco/dskDitto/releases/tag/v0.7.0",
+  "id": 387612549,
   "author": {
     "login": "jdefrancesco",
     "id": 782408,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOFncStM4W947d",
-  "tag_name": "v0.6.3",
+  "node_id": "RE_kwDOFncStM4XGn-F",
+  "tag_name": "v0.7.0",
   "target_commitish": "master",
-  "name": "dskDitto v0.6.3",
+  "name": "dskDitto v0.7.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-09T07:54:47Z",
-  "updated_at": "2026-09-09T07:58:32Z",
-  "published_at": "2026-09-09T07:58:32Z",
+  "created_at": "2026-09-12T15:24:24Z",
+  "updated_at": "2026-09-12T15:25:00Z",
+  "published_at": "2026-09-12T15:24:31Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/tarball/v0.6.3",
-  "zipball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/zipball/v0.6.3",
-  "body": "Faster TUI startup on large scans:\n\n- Duplicate-group total sizes were previously recomputed via `os.Stat()` on every file when building the TUI view model, even though the size was already known from the scan. On scans of ~2M files this meant hundreds of thousands of blocking, single-threaded `stat()` syscalls before the TUI could render its first frame.\n- File sizes are now cached at scan time and reused when building duplicate-group summaries, falling back to a stat only when a size wasn't already known (currently just fuzzy-match groups).\n\nNo CLI/flag changes since v0.6.2."
+  "tarball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/tarball/v0.7.0",
+  "zipball_url": "https://api.github.com/repos/jdefrancesco/dskDitto/zipball/v0.7.0",
+  "body": "Terminal TUI usability improvements:\n\n- Added alphabetical duplicate-group sorting by file path via `3`; `s` now cycles total size, duplicate count, and alphabetical sorting.\n- Updated the TUI footer legend to show all three sort options clearly.\n- Added `c` collapse all and `o` open all shortcuts for duplicate groups.\n- Let the terminal TUI use the full terminal width instead of capping at 120 columns, so long paths are less aggressively truncated.\n- Bumped the source version to `0.7.0`."
 }
