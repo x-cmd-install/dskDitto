@@ -14,11 +14,11 @@ x install dskDitto
 
 ## Code insight
 
-Total: **11,335** lines of code across **73** files in the top 5 languages.
+Total: **11,588** lines of code across **81** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 11,144 | 595 | 1,753 | 65 |
+| Go | 11,397 | 595 | 1,785 | 73 |
 | Makefile | 122 | 9 | 29 | 1 |
 | Python | 60 | 11 | 16 | 1 |
 | Zsh | 9 | 3 | 4 | 2 |
@@ -32,26 +32,26 @@ Total: **11,335** lines of code across **73** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.7.0` (2026-09-12)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-29
 
 ## Popularity
 
-- **Stars**: 388 · **Forks**: 10 · **Open issues**: 15 · **Contributors**: 2
+- **Stars**: 390 · **Forks**: 10 · **Open issues**: 15 · **Contributors**: 2
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 3 · **Open PRs**: 0 · **Closed issues**: 13 · **Open issues**: 2 · **Commits**: 261
+- **Releases**: 6 · **Merged PRs**: 3 · **Open PRs**: 0 · **Closed issues**: 13 · **Open issues**: 2 · **Commits**: 262
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 2 | 0 | 0 | 0 | 1 | 3 |
-| last60d | 2026-07-31 | 5 | 0 | 0 | 0 | 1 | 7 |
-| 90d | 2026-07-01 | 5 | 1 | 0 | 7 | 2 | 11 |
-| last180d | 2026-04-02 | 6 | 1 | 0 | 8 | 2 | 51 |
-| 360d | 2025-10-04 | 6 | 3 | 0 | 11 | 2 | 152 |
-| last720d | 2024-10-09 | 6 | 3 | 0 | 11 | 2 | 181 |
+| 30d | 2026-08-31 | 2 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-08-01 | 5 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-07-02 | 5 | 1 | 0 | 7 | 2 | 0 |
+| last180d | 2026-04-03 | 6 | 1 | 0 | 8 | 2 | 0 |
+| 360d | 2025-10-05 | 6 | 3 | 0 | 11 | 2 | 0 |
+| last720d | 2024-10-10 | 6 | 3 | 0 | 11 | 2 | 182 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for dskDitto lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:37:24Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:23:49Z._
