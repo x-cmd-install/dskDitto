@@ -14,15 +14,15 @@ x install dskDitto
 
 ## Code insight
 
-Total: **11,588** lines of code across **81** files in the top 5 languages.
+Total: **11,993** lines of code across **83** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 11,397 | 595 | 1,785 | 73 |
+| Go | 11,802 | 602 | 1,806 | 75 |
 | Makefile | 122 | 9 | 29 | 1 |
 | Python | 60 | 11 | 16 | 1 |
 | Zsh | 9 | 3 | 4 | 2 |
-| Markdown | 0 | 597 | 252 | 4 |
+| Markdown | 0 | 618 | 262 | 4 |
 
 ## Source
 
@@ -31,8 +31,8 @@ Total: **11,588** lines of code across **81** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v0.7.0` (2026-09-12)
-- **Last commit**: 2026-09-29
+- **Latest**: `v0.7.1` (2026-10-13)
+- **Last commit**: 2026-10-13
 
 ## Popularity
 
@@ -40,18 +40,18 @@ Total: **11,588** lines of code across **81** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 3 · **Open PRs**: 1 · **Closed issues**: 13 · **Open issues**: 8 · **Commits**: 262
+- **Releases**: 7 · **Merged PRs**: 3 · **Open PRs**: 1 · **Closed issues**: 13 · **Open issues**: 8 · **Commits**: 265
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 1 | 0 | 6 | 1 |
-| last60d | 2026-08-14 | 5 | 0 | 1 | 0 | 7 | 4 |
-| 90d | 2026-07-15 | 5 | 0 | 1 | 6 | 8 | 12 |
-| last180d | 2026-04-16 | 6 | 1 | 1 | 8 | 8 | 52 |
-| 360d | 2025-10-18 | 6 | 3 | 1 | 11 | 8 | 147 |
-| last720d | 2024-10-23 | 6 | 3 | 1 | 11 | 8 | 182 |
+| 30d | 2026-09-14 | 1 | 0 | 1 | 0 | 6 | 4 |
+| last60d | 2026-08-15 | 6 | 0 | 1 | 0 | 7 | 7 |
+| 90d | 2026-07-16 | 6 | 0 | 1 | 6 | 8 | 15 |
+| last180d | 2026-04-17 | 7 | 1 | 1 | 8 | 8 | 55 |
+| 360d | 2025-10-19 | 7 | 3 | 1 | 11 | 8 | 150 |
+| last720d | 2024-10-24 | 7 | 3 | 1 | 11 | 8 | 185 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for dskDitto lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:49:04Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:48:57Z._
