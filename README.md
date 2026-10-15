@@ -36,7 +36,7 @@ Total: **11,993** lines of code across **83** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 392 · **Forks**: 11 · **Open issues**: 21 · **Contributors**: 2
+- **Stars**: 393 · **Forks**: 11 · **Open issues**: 21 · **Contributors**: 2
 
 ## Totals (cumulative)
 
@@ -46,12 +46,12 @@ Total: **11,993** lines of code across **83** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 0 | 1 | 0 | 6 | 4 |
-| last60d | 2026-08-15 | 6 | 0 | 1 | 0 | 7 | 7 |
-| 90d | 2026-07-16 | 6 | 0 | 1 | 6 | 8 | 15 |
-| last180d | 2026-04-17 | 7 | 1 | 1 | 8 | 8 | 55 |
-| 360d | 2025-10-19 | 7 | 3 | 1 | 11 | 8 | 150 |
-| last720d | 2024-10-24 | 7 | 3 | 1 | 11 | 8 | 185 |
+| 30d | 2026-09-15 | 1 | 0 | 1 | 0 | 6 | 4 |
+| last60d | 2026-08-16 | 6 | 0 | 1 | 0 | 7 | 7 |
+| 90d | 2026-07-17 | 6 | 0 | 1 | 5 | 8 | 15 |
+| last180d | 2026-04-18 | 7 | 1 | 1 | 8 | 8 | 55 |
+| 360d | 2025-10-20 | 7 | 3 | 1 | 11 | 8 | 150 |
+| last720d | 2024-10-25 | 7 | 3 | 1 | 11 | 8 | 185 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for dskDitto lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:48:57Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T05:27:32Z._
