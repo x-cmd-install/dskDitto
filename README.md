@@ -46,12 +46,12 @@ Total: **11,993** lines of code across **83** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 1 | 0 | 1 | 0 | 6 | 4 |
-| last60d | 2026-08-22 | 3 | 0 | 1 | 0 | 7 | 7 |
-| 90d | 2026-07-23 | 6 | 0 | 1 | 3 | 8 | 11 |
-| last180d | 2026-04-24 | 7 | 1 | 1 | 8 | 8 | 55 |
-| 360d | 2025-10-26 | 7 | 3 | 1 | 11 | 8 | 150 |
-| last720d | 2024-10-31 | 7 | 3 | 1 | 11 | 8 | 184 |
+| 30d | 2026-09-22 | 1 | 0 | 1 | 0 | 6 | 4 |
+| last60d | 2026-08-23 | 3 | 0 | 1 | 0 | 7 | 7 |
+| 90d | 2026-07-24 | 6 | 0 | 1 | 3 | 8 | 11 |
+| last180d | 2026-04-25 | 7 | 1 | 1 | 8 | 8 | 55 |
+| 360d | 2025-10-27 | 7 | 3 | 1 | 11 | 8 | 150 |
+| last720d | 2024-11-01 | 7 | 3 | 1 | 11 | 8 | 184 |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for dskDitto lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T05:36:15Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T05:35:19Z._
